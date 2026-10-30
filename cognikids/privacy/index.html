@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CogniKids Privacy Policy</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<main>
+<header class="site"><a href="../">← CogniKids</a></header>
+<h1>CogniKids Privacy Policy</h1>
+<p class="updated">Last updated: October 30, 2026</p>
+
+<div class="card">
+<strong>The short version.</strong> CogniKids works fully on the device, with no account. It has
+no ads, no analytics, no crash reporting and no tracking, and it never shows a child a link,
+a chat or a purchase. Only if a parent creates an account does anything leave the device:
+the parent's email, a backup of the children's progress, and any problem reports the parent
+chooses to send. A parent can delete all of it from the app at any time.
+</div>
+
+<p>This policy explains what the CogniKids Android app ("CogniKids", "the app") made by
+Sukajee ("we", "us") stores, why, and the choices you have. It is written for parents and
+guardians: the app is for children, and every part that involves personal information is
+in the parent area, behind a parent PIN.</p>
+
+<h2>1. Using CogniKids without an account</h2>
+<p>You can use every learning feature without an account. In that case everything below
+stays on your device and is never sent to us:</p>
+<ul>
+  <li><strong>Child profiles</strong>: a display name (a nickname is fine), a vehicle avatar and a grade.</li>
+  <li><strong>Learning progress</strong>: the questions answered, whether each answer was right, hints used, time taken, sessions, skill levels and stickers earned.</li>
+  <li><strong>Settings</strong>: session length, sound, voice, animation and other comfort settings, practice reminder times, and the parent PIN (stored only as a one-way hash).</li>
+  <li><strong>Your voice recordings</strong>, if you record your own praise in the parent area. The app uses the microphone only when you press record there. Recordings never leave the device.</li>
+</ul>
+<p>Prompts are read aloud by your device's own text-to-speech engine. Practice reminders and
+the weekly summary are notifications created on the device; nothing is sent to a server for them.</p>
+
+<h2>2. With a parent account (optional)</h2>
+<p>A parent can create an account to back up progress and use it on more than one device. We
+use Google Firebase (Firebase Authentication and Cloud Firestore) to provide this. Firebase
+processes the data on our behalf, on servers operated by Google.</p>
+<div class="table-wrap">
+<table>
+<tr><th>What</th><th>Why</th></tr>
+<tr><td>Your email address, and your password (held by Firebase Authentication, never readable by us). If you use Google sign-in, your Google account's email and a sign-in token.</td><td>To create your account, sign you in, verify your email and reset your password.</td></tr>
+<tr><td>A backup of each child profile on the device: display name, avatar, grade, skill levels and locks, sessions, answers (as listed in section 1), and settings.</td><td>So progress is safe if a device is lost, and the same children appear on your other devices.</td></tr>
+</table>
+</div>
+<p>Each account's backup can be read and written only by that signed-in, email-verified
+parent. Voice recordings, the parent PIN and reminder settings are never backed up.</p>
+
+<h2>3. Problem reports (optional)</h2>
+<p>In the parent area, and from the pause menu behind the parent gate, a parent can report a
+problem with a question, a hint, a picture or the app. A report contains:</p>
+<ul>
+  <li>the category and the message you type (please do not include personal details);</li>
+  <li>where it happened: the subject, skill, level, game or question, and how many hints were shown;</li>
+  <li>the app version, device manufacturer and model, Android version, screen width, text size and language;</li>
+  <li>whether reduced animation, high contrast or calm mode was on.</li>
+</ul>
+<p>Reports are sent only while a parent is signed in, and are stored with that account's ID so
+they can be deleted with it. Reports written while signed out wait on the device until a parent
+signs in. We use reports only to fix problems in the app.</p>
+
+<h2>4. What we do not do</h2>
+<ul>
+  <li>No advertising, and no advertising ID.</li>
+  <li>No analytics, crash reporting, tracking or profiling SDKs.</li>
+  <li>No selling or sharing of personal information, and no use of it for any purpose other than running the features above.</li>
+  <li>No chat, social features, external links or purchases in the child area.</li>
+  <li>No location, contacts, photos or camera access.</li>
+</ul>
+
+<h2>5. Children's privacy</h2>
+<p>CogniKids is designed for children and to follow the Google Play Families Policy and the
+principles of the U.S. Children's Online Privacy Protection Act (COPPA). We do not collect
+personal information from children. Child profiles are set up by a parent in the parent area,
+and nothing about a child leaves the device unless a parent creates an account and agrees to
+this policy. We recommend a first name or nickname as the display name. A parent can review,
+change or delete a child's profile in the app at any time (Parent area → Children), and deleting
+a child also deletes that child's backup.</p>
+
+<h2>6. Android device backup</h2>
+<p>If Android's own backup is turned on in your device settings, Android may include the app's
+data in your device backup to your Google account, so that progress comes back when you set
+up a new phone. This is a feature of Android, controlled in your device settings, and is not
+sent to us.</p>
+
+<h2>7. How long we keep data</h2>
+<ul>
+  <li>Data on the device stays until you delete it in the app or uninstall the app.</li>
+  <li>Account data, backups and problem reports are kept until you delete the account. They are deleted immediately when you do, apart from copies that may remain in Google's own system backups for a short period before they are overwritten.</li>
+</ul>
+
+<h2>8. Your choices and rights</h2>
+<ul>
+  <li><strong>Delete your account</strong> in the app: Parent area → Parent account → Delete account. This deletes the account, its backup and its problem reports. See <a href="../delete-account/">how to delete your account</a>, including without the app.</li>
+  <li><strong>Stop backing up</strong> a device at any time (Parent area → Parent account).</li>
+  <li><strong>Delete a child</strong> in Parent area → Children.</li>
+  <li><strong>Access or correct</strong> your data: it is all visible and editable in the parent area, or email us.</li>
+</ul>
+<p>Depending on where you live (for example under the GDPR in the EU and UK, or state laws in
+the U.S.), you may have further rights, such as to receive a copy of your data or to complain
+to a data protection authority. Email us to use any of them; we reply within 30 days.</p>
+
+<h2>9. Security</h2>
+<p>Data travels to Firebase over encrypted connections, and Firebase security rules let only
+the signed-in parent reach their own data. The parent area is behind a PIN so children cannot
+change settings or reach account actions. No system is perfectly secure, but we keep what we
+store to the minimum the features need.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If we change this policy, we will update the date above and, for important changes,
+mention it in the app's release notes before the change applies.</p>
+
+<h2>11. Contact</h2>
+<p>Sukajee — <a href="mailto:info@sukajee.com">info@sukajee.com</a></p>
+
+<footer>See also: <a href="../terms/">Terms of use</a> · <a href="../delete-account/">Delete your account</a></footer>
+</main>
+</body>
+</html>
